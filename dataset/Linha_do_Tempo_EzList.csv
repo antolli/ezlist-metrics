@@ -1,0 +1,166 @@
+﻿Residente,Tarefa,Evento,Timestamp Inicial,Timestamp Final,Ação do Usuário,Comentarios,Duração
+P10,Tarefa 1,Problema de compreensao,00:01:34,00:01:50,Inserir dados do paciente,Precisou de orientação e não clicou no botão para autopreenchimento,00:00:16
+P10,Tarefa 1,Problema de compreensao,00:02:17,00:02:43,"Clicar no botão ""adicionar""",Clicou em adicionar novo paciente ao inves do botão salvar,00:00:26
+P10,Tarefa 1,Problema de compreensao,00:03:58,00:04:10,"Clicar no botão ""salvar""",Clicou em salvar e não soube se salvou,00:00:12
+P10,Tarefa 1,Erro do usuario,00:04:10,00:05:01,Finalização da Tarefa de forma incompleta,Usuário não conseguiu clicar no botão salvar.,00:00:51
+P10,Tarefa 2,Sucesso,00:00:00,00:02:20,Tarefa completa,Concluiu com sucesso,00:02:20
+P10,Tarefa 3,Problema de compreensao,00:00:40,00:00:46,Compreender botoes,,00:00:06
+P10,Tarefa 3,Problema de redundância,00:00:40,00:00:46,Compreender botoes,,00:00:06
+P10,Tarefa 3,Problema de redundância,00:01:16,00:01:20,Inserir motivo,Repetir descrição motivo,00:00:04
+P10,Tarefa 3,Problema de redundância,00:01:24,00:01:28,Inserir motivo,Repetir descrição motivo,00:00:04
+P10,Tarefa 3,Problema de redundância,00:01:30,00:01:34,Inserir motivo,Repetir descrição motivo,00:00:04
+P10,Tarefa 3,Problema de redundância,00:01:38,00:01:43,Inserir motivo,Repetir descrição motivo,00:00:05
+P10,Tarefa 3,Sucesso,00:01:43,00:02:01,Finalização da Tarefa,Conclusão,00:00:18
+P10,Tarefa 4,Problema de compreensao,00:00:18,00:00:50,Adicionar comentario,Usuario não encontrava o botão para adicionar comentario,00:00:32
+P10,Tarefa 4,Sucesso,00:00:51,00:01:22,Finalização da Tarefa,Conclusão,00:00:31
+P10,Tarefa 5,Problema de compreensao,00:00:09,00:00:12,"Procurar botão ""Procedimento""","Usuario não entende o botão pelo icone, precisa do mouseover para ajuda textual.",00:00:03
+P10,Tarefa 5,Sucesso,00:00:13,00:00:31,Finalização da Tarefa,Conclusão,00:00:18
+P10,Tarefa 6,Problema de compreensao,00:00:53,00:01:10,Inserir dados do paciente,Não clicou no botão para autopreenchimento,00:00:17
+P10,Tarefa 6,Erro do usuario,00:01:11,00:01:41,Finalização da Tarefa de forma incompleta,Usuário pulou a parte de adicionar procedimento.,00:00:30
+P10,Tarefa 7,Problema de compreensao,00:00:08,00:01:18,"Procurar funcionalidade ""fila de procedimentos""",Usuario não encontrava a funcionalidade/botão para fila de procedimentos,00:01:10
+P10,Tarefa 7,Sucesso,00:01:20,00:01:45,Finalização da Tarefa,Conclusão,00:00:25
+P09,Tarefa 1,Problema de compreensao,00:00:08,00:00:19,Adicionar Paciente,"Clicou no botão ""adicionar procedimento""",00:00:11
+P09,Tarefa 1,Erro do usuario,00:00:40,00:00:42,Adicionar informação obrigatória,Pulou informação obrigatória (data de nascimento),00:00:02
+P09,Tarefa 1,Problema de compreensao,00:01:06,00:01:18,Inserir dados do paciente,Não clicou no botão para autopreenchimento,00:00:12
+P09,Tarefa 1,Problema de compreensao,00:01:19,00:02:10,"Clicar no botão ""adicionar""",Clicou em adicionar novo paciente ao inves do botão salvar,00:00:51
+P09,Tarefa 1,Erro do usuario,00:02:30,00:02:32,Inserir dados do paciente,Inseriu nome do lugar do prontuário,00:00:02
+P09,Tarefa 1,Erro do usuario,00:03:42,00:03:45,"Clicar no botão ""adicionar""",Saiu da página ao invés de clicar no botão salvar e perdeu o preenchimento. O usuário se lamenta.,00:00:03
+P09,Tarefa 1,Problema de compreensao,00:03:55,00:03:57,Adicionar Paciente,"Clicou no botão ""adicionar procedimento""",00:00:02
+P09,Tarefa 1,Problema da interface,00:04:21,00:04:38,Adicionar Paciente,O botão para cadastrar paciente (popup que surge através da pesquisa do nome) não funciona. ,00:00:17
+P09,Tarefa 1,Problema da interface,00:04:54,00:05:04,Adicionar Paciente,A tela de adicionar paciente não apresenta o botão para adicionar o paciente e sim o botão para adicionar procedimento. O usuário tem que atualizar a página para aparecer o botão correto. ,00:00:10
+P09,Tarefa 1,Sucesso,00:05:11,00:06:32,Finalização da Tarefa,Finalizou tarefa com auxílio.,00:01:21
+P09,Tarefa 2,Sucesso,00:00:00,00:01:23,Tarefa completa,Concluiu com sucesso,00:01:23
+P09,Tarefa 3,Problema de compreensao,00:00:14,00:00:23,Compreender botoes,,00:00:09
+P09,Tarefa 3,Problema de redundância,00:00:44,00:00:47,Inserir motivo,Repetir descrição motivo,00:00:03
+P09,Tarefa 3,Problema de redundância,00:00:51,00:00:55,Inserir motivo,Repetir descrição motivo,00:00:04
+P09,Tarefa 3,Problema de redundância,00:01:17,00:01:21,Inserir motivo,Repetir descrição motivo,00:00:04
+P09,Tarefa 3,Sucesso,00:01:21,00:01:28,Tarefa completa,,00:00:07
+P09,Tarefa 4,Sucesso,00:00:00,00:00:42,Tarefa completa,,00:00:42
+P09,Tarefa 5,Sucesso,00:00:00,00:00:37,Tarefa completa,,00:00:37
+P09,Tarefa 6,Problema da interface,00:00:00,00:00:10,Adicionar Paciente,A tela de adicionar paciente não apresenta o botão para adicionar o paciente. O usuário precisa trocar de aba para aparecer. ,00:00:10
+P09,Tarefa 6,Erro do usuario,00:00:36,00:00:38,Inserir dados do paciente,Inseriu nome do lugar do prontuário,00:00:02
+P09,Tarefa 6,Sucesso,00:00:38,00:02:25,Finalização da Tarefa,,00:01:47
+P09,Tarefa 7,Sucesso,00:00:00,00:00:26,Tarefa completa,,00:00:26
+P08,Tarefa 1,Erro do usuario,00:00:18,00:00:31,Inserir dados do paciente,Inseriu nome do lugar do prontuário,00:00:13
+P08,Tarefa 1,Problema da interface,00:00:56,00:01:25,Preencher data de nascimento,Apresentou dificuldade para preencher a data de nascimento a partir do plugin (popup).,00:00:29
+P08,Tarefa 1,Sucesso,00:01:25,00:02:10,Finalização da Tarefa,,00:00:45
+P08,Tarefa 2,Problema de compreensao,00:00:30,00:00:44,Pesquisar pelo paciente,"Na tarefa anterior o usuário preencheu o prontuário com o nome do paciente, portanto não conseguiu compreender o porquê de não ter encontrado o paciente pelo prontuário.",00:00:14
+P08,Tarefa 2,Sucesso,00:00:56,00:02:20,Finalização da Tarefa,,00:01:24
+P08,Tarefa 3,Problema de redundância,00:00:33,00:00:40,Inserir motivo,Repetir descrição motivo,00:00:07
+P08,Tarefa 3,Problema de redundância,00:00:44,00:00:48,Inserir motivo,Repetir descrição motivo,00:00:04
+P08,Tarefa 3,Problema de redundância,00:00:56,00:01:00,Inserir motivo,Repetir descrição motivo,00:00:04
+P08,Tarefa 3,Problema de redundância,00:01:08,00:01:14,Inserir motivo,Repetir descrição motivo,00:00:06
+P08,Tarefa 3,Problema de redundância,00:01:27,00:01:43,Inserir motivo,Repetir descrição motivo,00:00:16
+P08,Tarefa 3,Sucesso,00:01:43,00:01:50,Finalização da Tarefa,,00:00:07
+P08,Tarefa 4,Sucesso,00:00:00,00:00:45,Tarefa completa,,00:00:45
+P08,Tarefa 5,Sucesso,00:00:00,00:00:33,Tarefa completa,,00:00:33
+P08,Tarefa 6,Erro do usuario,00:00:13,00:00:16,Inserir dados do paciente,Inseriu nome do lugar do prontuário,00:00:03
+P08,Tarefa 6,Sucesso,00:00:16,00:02:47,Finalização da Tarefa,,00:02:31
+P08,Tarefa 7,Sucesso,00:00:00,00:00:34,Tarefa completa,,00:00:34
+P07,Tarefa 1,Sucesso,00:00:00,00:00:43,Tarefa completa,,00:00:43
+P07,Tarefa 2,Sucesso,00:00:00,00:02:00,Tarefa completa,,00:02:00
+P07,Tarefa 3,Problema de compreensao,00:00:20,00:00:26,Procurando botão,Usuário não encontrava o botão para editar.,00:00:06
+P07,Tarefa 3,Problema de redundância,00:00:40,00:00:47,Inserir motivo,Repetir descrição motivo,00:00:07
+P07,Tarefa 3,Problema de redundância,00:00:50,00:00:58,Inserir motivo,Repetir descrição motivo,00:00:08
+P07,Tarefa 3,Problema de redundância,00:01:03,00:01:10,Inserir motivo,Repetir descrição motivo,00:00:07
+P07,Tarefa 3,Problema de redundância,00:01:23,00:01:29,Inserir motivo,Repetir descrição motivo,00:00:06
+P07,Tarefa 3,Problema de redundância,00:01:51,00:01:56,Inserir motivo,Repetir descrição motivo,00:00:05
+P07,Tarefa 3,Erro do usuario,00:01:51,00:01:53,Inserir tamanho,"Usuário inseriu o campo de forma textual, com a medida ""mm"" e uma descrição. ",00:00:02
+P07,Tarefa 3,Sucesso,00:01:53,00:02:02,Finalização da Tarefa,,00:00:09
+P07,Tarefa 4,Problema de compreensao,00:00:10,00:00:14,Procurando botão,"Problema de compreensão dos botões. Botão pequeno, dificuldade ao clicar.",00:00:04
+P07,Tarefa 4,Sucesso,00:00:14,00:01:03,Finalização da Tarefa,,00:00:49
+P07,Tarefa 5,Problema de compreensao,00:00:12,00:00:16,Procurando botão,Problema de compreensão dos botões. ,00:00:04
+P07,Tarefa 5,Sucesso,00:00:16,00:00:39,Finalização da Tarefa,,00:00:23
+P07,Tarefa 6,Erro do usuario,00:01:22,00:01:53,Pesquisar paciente,Usuário digitou o numero do prontuário errado e depois não conseguiu compreender a resposta da interface.,00:00:31
+P07,Tarefa 6,Sucesso,00:01:53,00:03:26,Finalização da Tarefa,,00:01:33
+P07,Tarefa 7,Problema de compreensao,00:00:43,00:00:54,Pesquisar paciente,"Após aparecer a fila do procedimento referente ao paciente, o usuário tenta pesquisar pelo paciente na fila, mas a barra de pesquisar não é para este fim. O usuário procura entender como filtrar o paciente. ",00:00:11
+P07,Tarefa 7,Sucesso,00:00:54,00:01:20,Finalização da Tarefa,,00:00:26
+P06,Tarefa 1,Sucesso,00:00:00,00:01:12,Tarefa completa,,00:01:12
+P06,Tarefa 2,Sucesso,00:00:00,00:01:03,Tarefa completa,,00:01:03
+P06,Tarefa 3,Problema de redundância,00:00:25,00:00:37,Inserir motivo,Repetir descrição motivo,00:00:12
+P06,Tarefa 3,Problema de redundância,00:00:43,00:00:45,Inserir motivo,Repetir descrição motivo,00:00:02
+P06,Tarefa 3,Problema de redundância,00:00:49,00:00:53,Inserir motivo,Repetir descrição motivo,00:00:04
+P06,Tarefa 3,Problema de redundância,00:01:08,00:01:19,Inserir motivo,Repetir descrição motivo,00:00:11
+P06,Tarefa 3,Sucesso,00:01:19,00:01:32,Finalização da Tarefa,,00:00:13
+P06,Tarefa 4,Sucesso,00:00:00,00:00:35,Tarefa completa,,00:00:35
+P06,Tarefa 5,Sucesso,00:00:00,00:00:39,Tarefa completa,,00:00:39
+P06,Tarefa 6,Problema de compreensao,00:01:04,00:01:10,"Clicar no botão ""adicionar""",Clicou em adicionar novo paciente ao inves do botão salvar,00:00:06
+P06,Tarefa 6,Problema da interface,00:01:36,00:01:45,"Clicar no botão ""salvar""",Usuário não conseguiu clicar no botão salvar. Nenhuma mensagem de campos obrigatórios faltantes apareceu.,00:00:09
+P06,Tarefa 6,Erro do usuario,00:01:47,00:01:52,"Clicar no botão ""salvar""",Faltou preencher o campo nome completo. ,00:00:05
+P06,Tarefa 6,Erro do sistema,00:01:52,00:03:20,Finalização do cadastro do paciente,Latência muito alta entre a ação do usuário e a resposta dos sistema.,00:01:28
+P06,Tarefa 6,Sucesso,00:03:21,00:05:08,Finalização da Tarefa,,00:01:47
+P06,Tarefa 7,Sucesso,00:00:00,00:00:31,Tarefa completa,,00:00:31
+P05,Tarefa 1,Problema de compreensao,00:00:00,00:00:08,Adicionar Paciente,"Clicou no botão ""adicionar procedimento""",00:00:08
+P05,Tarefa 1,Sucesso,00:00:08,00:01:57,Finalização da Tarefa,,00:01:49
+P05,Tarefa 2,Sucesso,00:00:00,00:02:16,Tarefa completa,,00:02:16
+P05,Tarefa 3,Problema de compreensao,00:00:18,00:00:25,Procurando botão,Problema de compreensão dos botões. ,00:00:07
+P05,Tarefa 3,Problema de redundância,00:00:40,00:00:54,Inserir motivo,Repetir descrição motivo,00:00:14
+P05,Tarefa 3,Problema de redundância,00:01:04,00:01:08,Inserir motivo,Repetir descrição motivo,00:00:04
+P05,Tarefa 3,Problema de redundância,00:01:34,00:01:39,Inserir motivo,Repetir descrição motivo,00:00:05
+P05,Tarefa 3,Problema de redundância,00:02:04,00:02:07,Inserir motivo,Repetir descrição motivo,00:00:03
+P05,Tarefa 3,Sucesso,00:02:07,00:02:40,Finalização da Tarefa,,00:00:33
+P05,Tarefa 4,Problema de compreensao,00:00:07,00:00:10,Procurando botão,Problema de compreensão dos botões. ,00:00:03
+P05,Tarefa 4,Sucesso,00:00:10,00:00:53,Finalização da Tarefa,,00:00:43
+P05,Tarefa 5,Problema de compreensao,00:00:16,00:00:22,Procurando botão,Problema de compreensão dos botões. ,00:00:06
+P05,Tarefa 5,Sucesso,00:00:22,00:00:40,Finalização da Tarefa,,00:00:18
+P05,Tarefa 6,Sucesso,00:00:00,00:03:04,Tarefa completa,,00:03:04
+P05,Tarefa 7,Sucesso,00:00:08,00:00:59,Tarefa completa,"A tarefa devia ser procurar pelo paciente EZList, mas por algum motivo a instrução foi de procurar outro paciente.",00:00:51
+P04,Tarefa 1,Problema de compreensao,00:04:33,00:05:41,"Clicar em ""salvar""","Usuário clicou em salvar sem completar o cadastro, e ao invés de finalizar mesmo assim, voltou para a tela e não sabia o que inserir nos campos em vermelho. Precisou de instrução.",00:01:08
+P04,Tarefa 1,Sucesso,00:05:42,00:06:09,Finalização da Tarefa,,00:00:27
+P04,Tarefa 2,Problema da interface,00:00:04,00:00:07,"Clicar em ""Adicionar Procedimento""",Usuário clicou em adicionar procedimento antes de esperar a tela finalizar de carregar.,00:00:03
+P04,Tarefa 2,Sucesso,00:00:07,00:02:19,Finalização da Tarefa,,00:02:12
+P04,Tarefa 3,Problema de compreensao,00:00:21,00:00:49,Procurando botão,Problema de compreensão dos botões. ,00:00:28
+P04,Tarefa 3,Erro do usuario,00:00:57,00:01:01,"Clicar no botão ""salvar""",Usuário clicou no botão salvar sem realizar uma alteração no procedimento.,00:00:04
+P04,Tarefa 3,Problema de redundância,00:01:44,00:01:46,Inserir motivo,Repetir descrição motivo,00:00:02
+P04,Tarefa 3,Problema de redundância,00:01:53,00:02:02,Inserir motivo,Repetir descrição motivo,00:00:09
+P04,Tarefa 3,Problema de redundância,00:02:24,00:02:26,Inserir motivo,Repetir descrição motivo,00:00:02
+P04,Tarefa 3,Problema de redundância,00:02:31,00:02:34,Inserir motivo,Repetir descrição motivo,00:00:03
+P04,Tarefa 3,Sucesso,00:02:34,00:03:15,Finalização da Tarefa,,00:00:41
+P04,Tarefa 4,Problema de compreensao,00:00:26,00:00:36,Procurando botão,Problema de compreensão dos botões. ,00:00:10
+P04,Tarefa 4,Sucesso,00:00:36,00:01:12,Finalização da Tarefa,,00:00:36
+P04,Tarefa 5,Problema de compreensao,00:00:07,00:00:12,Procurando botão,Procurando botão,00:00:05
+P04,Tarefa 5,Sucesso,00:00:12,00:01:23,Finalização da Tarefa,,00:01:11
+P04,Tarefa 6,Problema da interface,00:00:30,00:00:34,"Clicar no botão ""cadastrar paciente""",O usuário tenta clicar no botão e ele não tem ação. ,00:00:04
+P04,Tarefa 6,Problema de compreensao,00:00:35,00:00:50,Procurando local para cadastrar.,Problema de compreensão da interface.,00:00:15
+P04,Tarefa 6,Sucesso,00:00:51,00:03:48,Finalização da Tarefa,,00:02:57
+P04,Tarefa 7,Sucesso,00:00:00,00:00:24,Tarefa completa,"A tarefa devia ser procurar pelo paciente EZList, mas por algum motivo a instrução foi de procurar outro paciente.",00:00:24
+P03,Tarefa 1,Problema de compreensao,00:00:06,00:00:14,Adicionar Paciente,"Clicou no botão ""adicionar procedimento"". Depois se questionou como executar. ",00:00:08
+P03,Tarefa 1,Problema de compreensao,00:00:15,00:00:38,Procurar por instruções,O usuário assistiu ao vídeo tutorial. ,00:00:23
+P03,Tarefa 1,Sucesso,00:00:39,00:02:30,Finalização da Tarefa,,00:01:51
+P03,Tarefa 2,Problema de compreensao,00:00:00,00:00:33,Procurando botão,Usuário não encontra o botão de adicionar procedimento. ,00:00:33
+P03,Tarefa 2,Sucesso,00:00:33,00:03:09,Finalização da Tarefa,,00:02:36
+P03,Tarefa 3,Problema de redundância,00:01:01,00:01:11,Inserir motivo,Repetir descrição motivo,00:00:10
+P03,Tarefa 3,Problema de redundância,00:01:34,00:01:45,Inserir motivo,Repetir descrição motivo,00:00:11
+P03,Tarefa 3,Problema de redundância,00:02:30,00:02:37,Inserir motivo,"Repetir descrição motivo. Usuário somente clicou no campo e não alterou valor, mas o sistema pediu descrição. ",00:00:07
+P03,Tarefa 3,Problema de redundância,00:02:44,00:02:47,Inserir motivo,"Repetir descrição motivo. Usuário inseriu o valor, mas não preencheu descrição, pois achou que o sistema salvou o anterior. ",00:00:03
+P03,Tarefa 3,Sucesso,00:02:47,00:03:27,Finalização da Tarefa,,00:00:40
+P03,Tarefa 4,Sucesso,00:00:00,00:01:06,Tarefa completa,,00:01:06
+P03,Tarefa 5,Sucesso,00:00:00,00:00:54,Tarefa completa,,00:00:54
+P03,Tarefa 6,Sucesso,00:00:00,00:05:52,Tarefa completa,,00:05:52
+P03,Tarefa 7,Sucesso,00:00:00,00:01:10,Tarefa completa,,00:01:10
+P02,Tarefa 1,Sucesso,00:00:00,00:02:10,Tarefa completa,,00:02:10
+P02,Tarefa 2,Sucesso,00:00:00,00:02:26,Tarefa completa,,00:02:26
+P02,Tarefa 3,Problema de compreensao,00:00:19,00:00:25,Procurando botão,Problema de compreensão dos botões. ,00:00:06
+P02,Tarefa 3,Problema de compreensao,00:00:32,00:00:39,Procurando botão,Problema de compreensão dos botões. ,00:00:07
+P02,Tarefa 3,Problema de redundância,00:00:47,00:00:58,Inserir motivo,Repetir descrição motivo,00:00:11
+P02,Tarefa 3,Problema de redundância,00:01:14,00:01:23,Inserir motivo,Repetir descrição motivo,00:00:09
+P02,Tarefa 3,Problema de redundância,00:01:31,00:01:33,Inserir motivo,Repetir descrição motivo,00:00:02
+P02,Tarefa 3,Sucesso,00:01:33,00:02:01,Finalização da Tarefa,,00:00:28
+P02,Tarefa 4,Sucesso,00:00:00,00:00:31,Tarefa completa,,00:00:31
+P02,Tarefa 5,Sucesso,00:00:00,00:00:38,Tarefa completa,,00:00:38
+P02,Tarefa 6,Sucesso,00:00:00,00:03:13,Tarefa completa,,00:03:13
+P02,Tarefa 7,Sucesso,00:00:00,00:00:35,Tarefa completa,"A tarefa devia ser procurar pelo paciente EZList, mas por algum motivo a instrução foi de procurar outro paciente.",00:00:35
+P01,Tarefa 1,Erro do sistema,00:00:00,00:02:41,"Tarefa completa, porém com mensagem de erro do sistema.",Mensagem de erro de servidor: server error. ,00:02:41
+P01,Tarefa 2,Sucesso,00:01:44,00:02:57,Tarefa completa,,00:01:13
+P01,Tarefa 3,Problema de redundância,00:00:15,00:00:34,Inserir motivo,Repetir descrição motivo,00:00:19
+P01,Tarefa 3,Problema de redundância,00:00:37,00:00:41,Inserir motivo,Repetir descrição motivo,00:00:04
+P01,Tarefa 3,Problema de redundância,00:00:46,00:00:53,Inserir motivo,Repetir descrição motivo,00:00:07
+P01,Tarefa 3,Problema de redundância,00:00:59,00:01:04,Inserir motivo,Repetir descrição motivo,00:00:05
+P01,Tarefa 3,Problema de redundância,00:01:34,00:01:39,Inserir motivo,Repetir descrição motivo,00:00:05
+P01,Tarefa 3,Sucesso,00:01:39,00:01:49,Finalização da Tarefa,,00:00:10
+P01,Tarefa 4,Problema de compreensao,00:00:00,00:00:05,Procurando botão,Problema de compreensão dos botões. ,00:00:05
+P01,Tarefa 4,Sucesso,00:00:05,00:00:35,Finalização da Tarefa,,00:00:30
+P01,Tarefa 5,Sucesso,00:00:00,00:00:24,Tarefa completa,,00:00:24
+P01,Tarefa 6,Problema da interface,00:00:00,00:01:15,Procurando botão para adicionar paciente,"Problema de compreensão da interface. Não aparecia o botão para adicionar o paciente. Precisou de instrução para ""driblar"" o erro.",00:01:15
+P01,Tarefa 6,Sucesso,00:01:15,00:04:15,Finalização da Tarefa,,00:03:00
+P01,Tarefa 7,Sucesso,00:00:00,00:00:20,Tarefa completa,,00:00:20
