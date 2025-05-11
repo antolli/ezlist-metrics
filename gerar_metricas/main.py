@@ -17,7 +17,11 @@ def main():
     
     df = pd.read_csv(args.csv, encoding='utf-8-sig')
     
-    completion_rate(df)
+    pa = calcular_pa(args.csv)
+    print(f"Percentual de Ajuda Solicitada ou Necessária")
+    print("------------------------------")
+    print(f"PA: {pa:.2f}%")
+    print("------------------------------")
   
    
 def completion_rate(df: pd.DataFrame):

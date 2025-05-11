@@ -1,4 +1,6 @@
 import pandas as pd
+import argparse
+import os
 
 def calculate_completion_rate(df: pd.DataFrame) -> float:
     """
@@ -229,4 +231,58 @@ def calculate_completion_rate(df: pd.DataFrame):
     print("========================================\n")
     # --- Fim das impressões de depuração ---
 
-    return tbe
+    return tbe, R, N, sum_ratios
+
+def comparar_tbe_com_otimo(df: pd.DataFrame):
+    """
+    Compara a TBE real (calculada com calculate_completion_rate)
+    com a TBE ideal, baseada nos tempos mínimos por tarefa.
+    """
+    tbe_real, R, N, soma_ratios = calculate_completion_rate(df)
+
+    # Tempos ótimos definidos (em segundos)
+    tempos_otimos = {
+        'TAREFA 1': 120,
+        'TAREFA 2': 170,
+        'TAREFA 3': 120,
+        'TAREFA 4': 30,
+        'TAREFA 5': 45,
+        'TAREFA 6': 150,
+        'TAREFA 7': 30
+    }
+
+    soma_baseline = sum(10 / t for t in tempos_otimos.values())
+    tbe_otima = soma_baseline / (R * N)
+    diferenca = tbe_otima - tbe_real
+
+    print("\n--- Comparação entre TBE real e TBE ótima ---")
+    print(f"TBE real (decimal): {tbe_real:.4f}")
+    print(f"TBE real (%): {tbe_real * 100:.2f}%")
+    print(f"TBE ótima (decimal): {tbe_otima:.4f}")
+    print(f"TBE ótima (%): {tbe_otima * 100:.2f}%")
+    print(f"Diferença absoluta: {diferenca * 100:.2f}%")
+    print(f"Soma das razões n_ij / t_ij (real): {soma_ratios:.4f}")
+    print(f"Denominador (R*N): {R} * {N} = {R*N}")
+    print("------------------------------------------------\n")
+
+
+def calcular_pa(caminho_csv_principal: str) -> float:
+    """
+    Calcula PA (Percentual de Ajuda Solicitada ou Necessária).
+    Assume que o arquivo 'tabela_execucoes_pa.csv' está no mesmo caminho que o csv de entrada.
+    """
+    pasta = os.path.dirname(caminho_csv_principal)
+
+    caminho_csv_ajuda = os.path.join(pasta, "tabela_execucoes_pa.csv")
+
+    df_ajuda = pd.read_csv(caminho_csv_ajuda, encoding="utf-8-sig", sep=",")
+    df_ajuda['Residente'] = df_ajuda['Residente'].str.strip()
+    df_ajuda['Tarefa'] = df_ajuda['Tarefa'].str.upper().str.strip()
+    df_ajuda['Ajuda'] = df_ajuda['Ajuda'].fillna(0).astype(int)
+
+    total_execucoes = len(df_ajuda)
+    if total_execucoes == 0:
+        return 0.0
+
+    pa = (df_ajuda['Ajuda'] > 0).sum() / total_execucoes * 100
+    return round(pa, 2)
