@@ -16,12 +16,13 @@ def main():
     args = parser.parse_args()
     
     df = pd.read_csv(args.csv, encoding='utf-8-sig')
-    
-    pa = calcular_pa(args.csv)
-    print(f"Percentual de Ajuda Solicitada ou Necessária")
-    print("------------------------------")
-    print(f"PA: {pa:.2f}%")
-    print("------------------------------")
+
+    comparar_tbe_com_otimo(df)
+    #pa = calcular_pa(args.csv)
+    #print(f"Percentual de Ajuda Solicitada ou Necessária")
+    #print("------------------------------")
+    #print(f"PA: {pa:.2f}%")
+    #print("------------------------------")
   
    
 def completion_rate(df: pd.DataFrame):

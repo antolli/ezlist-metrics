@@ -240,15 +240,15 @@ def comparar_tbe_com_otimo(df: pd.DataFrame):
     """
     tbe_real, R, N, soma_ratios = calculate_completion_rate(df)
 
-    # Tempos ótimos definidos (em segundos)
+     # Tempos ótimos definidos (em segundos)
     tempos_otimos = {
-        'TAREFA 1': 120,
-        'TAREFA 2': 170,
-        'TAREFA 3': 120,
-        'TAREFA 4': 30,
-        'TAREFA 5': 45,
-        'TAREFA 6': 150,
-        'TAREFA 7': 30
+        'TAREFA 1': 85.5,
+        'TAREFA 2': 107,
+        'TAREFA 3': 87,
+        'TAREFA 4': 32.5,
+        'TAREFA 5': 41,
+        'TAREFA 6': 140,
+        'TAREFA 7': 34
     }
 
     soma_baseline = sum(10 / t for t in tempos_otimos.values())
