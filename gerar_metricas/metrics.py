@@ -240,7 +240,7 @@ def comparar_tbe_com_otimo(df: pd.DataFrame):
     """
     tbe_real, R, N, soma_ratios = calculate_completion_rate(df)
 
-     # Tempos ótimos definidos (em segundos)
+    # Tempos ótimos definidos (em segundos)
     tempos_otimos = {
         'TAREFA 1': 85.5,
         'TAREFA 2': 107,

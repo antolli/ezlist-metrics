@@ -1,7 +1,7 @@
 import argparse
 import pandas as pd
 from gerar_graficos.converter import converter_excel_para_csv
-from gerar_graficos.plotting import plot_duration, plot_event_frequency
+from gerar_graficos.plotting import plot_duration_with_means, plot_duration, plot_event_frequency
 
 def main():
     parser = argparse.ArgumentParser(description="Ferramenta para converter dados e gerar gráficos.")
@@ -31,7 +31,7 @@ def main():
             print(f"Erro ao ler o CSV: {e}")
             return
         if args.grafico == "duration":
-            plot_duration(df)
+            plot_duration_with_means(df)
         elif args.grafico == "barras":
             plot_event_frequency(df)
 

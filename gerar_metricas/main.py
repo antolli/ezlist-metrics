@@ -25,7 +25,7 @@ def main():
     #print("------------------------------")
   
    
-def completion_rate(df: pd.DataFrame):
+def _completion_rate(df: pd.DataFrame):
     """
     Calcula a taxa de conclusão de tarefas e exibe os resultados.
     """
@@ -91,10 +91,6 @@ def completion_rate(df: pd.DataFrame):
     calculada como a média das razões n_ij / t_ij.
     """
     tbe_value = calculate_completion_rate(df)
-    print("Eficiência Baseada no Tempo (TBE) - Média das razões n_ij / t_ij")
-    print("----------------------------------------------------------------")
-    print(f"TBE (valor decimal) = {tbe_value:.4f}")
-    print(f"TBE (percentual)    = {tbe_value * 100:.2f}%")
 
 
 if __name__ == "__main__":

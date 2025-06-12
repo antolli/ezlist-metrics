@@ -2,6 +2,51 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import plotly.express as px
 
+def plot_duration_with_means(df):
+    """
+    Plota um gráfico de barras empilhadas interativo com Plotly e,
+    em seguida, calcula e imprime a média de duração por tipo de evento.
+    """
+    df = df.copy()
+
+    # Filtra apenas eventos "não sucesso"
+    df = df[~df['Evento'].str.lower().eq('sucesso')]
+
+    # Converte "Duração" (HH:MM:SS) em segundos
+    df['Duração'] = pd.to_timedelta(df['Duração'], errors='coerce').dt.total_seconds()
+    df = df.dropna(subset=['Duração'])
+    df['Duração'] = df['Duração'].round(0).astype(int)
+
+    # --- Gráfico empilhado ---
+    df_grouped = df.groupby(['Residente', 'Evento'], as_index=False)['Duração'].sum()
+    fig = px.bar(
+        df_grouped,
+        x='Residente',
+        y='Duração',
+        color='Evento',
+        hover_data={'Evento': True, 'Duração': ':.1f'},
+        labels={'Duração': 'Duração (segundos)'},
+        title='Duração total por Residente e Evento',
+        category_orders={'Residente': [f'P{str(i).zfill(2)}' for i in range(1,11)]}
+    )
+    fig.update_layout(barmode='stack', xaxis_title="Residente", yaxis_title="Duração (segundos)")
+    fig.show()
+
+    # --- Cálculo das médias ---
+    df_means = (
+        df
+        .groupby('Evento')['Duração']
+        .mean()
+        .reset_index(name='Média_segundos')
+    )
+    # opcional: adicionar coluna em minutos
+    df_means['Média_minutos'] = (df_means['Média_segundos'] / 60).round(2)
+
+    print("\nMédia de duração por evento:")
+    print(df_means.to_string(index=False))
+
+    return df_means
+
 def plot_duration(df):
     """
     Plota um gráfico de barras empilhadas interativo com Plotly.
